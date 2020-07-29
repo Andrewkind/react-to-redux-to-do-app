@@ -1,6 +1,7 @@
 import React from 'react';
-import { addNewToDo, removeToDo } from './actions/todos';
+import { addNewToDo, removeToDo } from '../actions/todos';
 import { connect } from 'react-redux';
+import ToDo from './ToDo'
 
 class App extends React.Component {
   constructor ( props )
